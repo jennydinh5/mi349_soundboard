@@ -1,0 +1,38 @@
+h1{
+    margin: 15px 0;
+    text-align: center;
+
+}
+html, body{
+    width: 100%;
+    justify-content: center;
+}
+
+body {
+    background-color: rgb(182, 182, 182);
+}
+
+button{
+    cursor:pointer;
+    font-family: Georgia;
+    column-count: 5;
+    column-width: 50px;
+    column-gap: 10px;
+    padding: 10px;
+    transition: opacity .2s;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    }
+
+#one{
+    background: lightblue;
+}
+
+#two{
+    background: rgb(132, 183, 200);
+}
+
+#three{
+    background:rgb(105, 185, 211);
+}
