@@ -1,18 +1,5 @@
-var buttonElement = document.getElementById('firstbutton')
-
-buttonElement.addEventListener('click', function () {
-    console.log('I was clicked!')
-})
-
-var playButton = document.getElementById("babyclick");
-
-function babyclick(){
-    sound.play();
+function play(sound){
+    var audio = document.getElementById("audio");
+    audio.setAttribute('src', sound);
+    audio.play();
 }
-
-var buttonElement = document.getElementById('secondbutton')
-
-buttonElement.addEventListener('click', function () {
-    console.log('I was clicked!')
-})
-
